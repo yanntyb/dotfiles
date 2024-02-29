@@ -1,3 +1,11 @@
 alias aliasconfig="open ~/.aliases"
 alias ls="ll"
+
+#dotfile git
 alias dotfile='/usr/bin/git --git-dir=$HOME/.myconf/ --work-tree=$HOME'
+
+#ssh pb_key
+alias pbkey='pbcopy < ~/.ssh/id_rsa.pub'
+
+#laravel artisan
+alias artisan='php artisan'
