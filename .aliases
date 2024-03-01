@@ -9,3 +9,6 @@ alias pbkey='pbcopy < ~/.ssh/id_rsa.pub'
 
 #laravel artisan
 alias artisan='php artisan'
+
+#python
+alias py='python3'
