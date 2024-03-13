@@ -1,4 +1,4 @@
-alias aliasconfig="open ~/.aliases"
+alias aliasconfig="phpstorm ~/.aliases"
 alias ls="ll"
 
 #dotfile git
