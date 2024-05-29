@@ -8,7 +8,10 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 
 export HIST_STAMPS="dd/mm/yyyy"
 
-plugins=(git)
+plugins=(
+    composer
+    git
+)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -32,3 +35,10 @@ eval "$(zoxide init zsh --cmd cd)"
 
 #alias
 source ~/.aliases
+
+# Add rubygems to the path
+export PATH=/opt/homebrew/lib/ruby/gems/2.7.0/bin:$PATH
+# or
+export PATH=/usr/local/lib/ruby/gems/2.7.0/bin:$PATH
+
+export LSCOLORS="exfxcxdxbxegedabagacad"

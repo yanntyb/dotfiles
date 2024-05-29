@@ -1,5 +1,5 @@
 alias aliasconfig="phpstorm ~/.aliases"
-alias ls="ll"
+alias ls="ll --color=always"
 
 #dotfile git
 alias dotfile='/usr/bin/git --git-dir=$HOME/.myconf/ --work-tree=$HOME'
@@ -19,5 +19,16 @@ alias pip='pip3'
 #go to mamp log folder
 alias mamp-error='phpstorm /Applications/MAMP/logs'
 
-#clear mamp log file 
+#clear mamp log file
 alias mamp-error-clear='cd /Applications/MAMP/logs && for file in *.log; do "" > $file; done'
+
+alias md5='md5sum'
+
+#better cat
+alias cat="bat --theme=Coldark-Dark .zshrc"
+
+
+alias pb_key="bat ~/.ssh/id_rsa.pub | pbcopy"
+
+#run composer with current enabled php version
+alias composer="php /Applications/MAMP/bin/php/composer"
