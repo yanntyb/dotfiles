@@ -1,0 +1,10 @@
+#!/bin/sh
+
+alias aliasconfig="open $0"
+alias ls="eza -1l --icons=always"
+alias phpstorm="open -na "PhpStorm.app" --args \"$@\""
+alias artisan="php artisan"
+alias php8.4="~/Library/Application\ Support/Herd/bin/php84 $@"
+alias php8.3="~/Application\ Support/Herd/bin/php83 $@"
+alias htop="zenith"
+alias spotify="ncspot"
