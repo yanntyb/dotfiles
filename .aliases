@@ -1,6 +1,6 @@
 #!/bin/sh
 
-alias aliasconfig="open $0"
+alias aliasconfig="open -a TextEdit ~/.aliases"
 alias ls="eza -1l --icons=always"
 alias phpstorm="open -na "PhpStorm.app" --args \"$@\""
 alias artisan="php artisan"
