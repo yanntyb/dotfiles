@@ -1,0 +1,5 @@
+{
+    "require": {
+        "laravel-zero/installer": "^2.10"
+    }
+}
